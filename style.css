@@ -1,0 +1,308 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.full {
+    /* padding: 0 2rem; */
+    margin: 6rem;
+}
+
+.navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.id {
+    width: 100px;
+}
+
+.navber a {
+    padding: 20px 30px;
+    text-decoration: none;
+    color: blue;
+}
+
+#color {
+    background: rgb(224, 224, 230);
+}
+
+
+/* !-- section 2 -- */
+
+img {
+    width: 100%;
+}
+
+.page-1 {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;
+            text-align: center; */
+    padding: 4rem;
+}
+
+.page-1 .box-1 {
+    width: 60%;
+}
+
+.page-1 .box {
+    width: 40%;
+}
+
+.box {
+    font-size: 30px;
+}
+
+.page-1 .box h1 {
+    font-size: 90px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.bks {
+    height: 50px;
+    width: 300px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: blue;
+    color: white;
+}
+
+.bot {
+    color: rgb(221, 181, 181);
+}
+
+.bks:hover {
+    background: rgb(110, 110, 228);
+}
+
+.main-div {
+    display: flex;
+}
+
+.main-div div {
+    padding: 20px 30px;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+/* sectoin 3 */
+
+.card img {
+    width: 100%;
+    height: 500px;
+}
+
+.item {
+    display: flex;
+    padding: 4rem;
+    background: #FBE4DB;
+}
+
+.box-item {
+    padding: 2rem;
+    width: 50%;
+}
+
+.item3 {
+    width: 50%;
+}
+
+.item .box-item {
+    font-size: 30px;
+}
+
+.tred {
+    background: white;
+    padding: 2rem;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.container-item {
+    display: flex;
+    align-items: center;
+}
+
+.container-item .image-box {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.container-item .image-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.toyota {
+    display: grid;
+    padding: 2rem;
+    grid-gap: 1rem;
+    line-height: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#bks {
+    background: #cc9884d7;
+    text-align: center;
+    /* color: white; */
+    padding: 3px;
+}
+
+#bks:hover {
+    background: #cab5acd7;
+}
+
+
+/* Sewction 4 */
+
+.section {
+    display: flex;
+    padding: 4rem;
+    background: #F8E0EA;
+}
+
+.section .box-item {
+    font-size: 30px;
+}
+
+.last {
+    background: #D7BCD9;
+    text-align: center;
+    /* color: white; */
+    padding: 3px;
+}
+
+.last:hover {
+    background: #b46eb9;
+}
+
+
+/* Section 5 */
+
+.rockey {
+    display: flex;
+    padding: 4rem;
+    background: #D6EBE4;
+}
+
+.rockey .box-item {
+    font-size: 30px;
+}
+
+.vaction {
+    background: #BDDBCF;
+    text-align: center;
+    /* color: white; */
+    padding: 3px;
+}
+
+.vaction:hover {
+    background: #6dbe9e;
+}
+
+
+/* Scetion 6 */
+
+.getup {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 3rem;
+}
+
+.getup #font {
+    font-size: 70px;
+}
+
+.getup-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+}
+
+.getup-box div {
+    background: #ECEFFC;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+
+/* Section 7 */
+
+.last-Container {
+    background: #333;
+}
+
+.last-part {
+    padding: 8rem;
+    /* margin: 8rem; */
+}
+
+.grid {
+    list-style: none;
+}
+
+.grid li:hover {
+    color: white;
+}
+
+.frist-part {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left {
+    padding: 2rem;
+    color: white;
+    font-size: 50px;
+}
+
+.right {
+    padding: 2rem;
+    color: #817777;
+    font-size: 30px;
+}
+
+.oder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    line-height: 9rem;
+}
+
+.imo {
+    color: white;
+    /* padding: 2rem; */
+    font-size: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    line-height: 4rem;
+    overflow: hidden;
+    color: #817777;
+}
+
+.grid-2 span {
+    color: white;
+    background: #817777;
+}
+
+.grid p {
+    color: white;
+}
+
+.grid-top {
+    color: #817777;
+}
